@@ -1,0 +1,74 @@
+
+ body{
+    background-image: url(https://images.unsplash.com/photo-1681984581663-971b420de31c?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+ }
+ .container{
+    height: 80vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+ }
+ .him{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    gap: 2px;
+    margin: 40px;
+}
+ .box
+{
+
+    background-color:  black;
+    color: aliceblue;    
+    border: 1px solid white;
+    height: 18vh;
+    width: 18vh;
+    border-radius: 8px;
+    box-shadow: 60px salmon;
+    box-shadow: 7px 4px 8px 2px red;
+}
+.resetbtn{
+    height: 30px;
+    width: 120px;
+    box-shadow: 7px 4px 8px 2px wheat;
+    border-radius: 4px;
+    margin-left: 9px;
+    background-color: transparent;
+    color: white;
+    
+}
+.game{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* space between grid and reset button */
+
+}
+#msg{
+    width: 150px;
+    height: 33px;
+    border: 1px solid white;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 4px red;
+    box-shadow: 3px 4px 4px red;
+}
+
+
+
+.hide{
+    display: none;
+}
